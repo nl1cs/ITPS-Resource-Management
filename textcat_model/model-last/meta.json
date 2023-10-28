@@ -1,0 +1,364 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.7.2,<3.8.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"a89eae928",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null,
+    "mode":"default"
+  },
+  "labels":{
+    "textcat_multilabel":[
+      "Heart of algebra",
+      "Linear equation",
+      "Word problem",
+      "Quadratic equation",
+      "Probability",
+      "Geometry",
+      "System of equation",
+      "Graph",
+      "Linear model",
+      "Quadratic equation graph",
+      "Words in context",
+      "Table",
+      "Circle equation",
+      "Radian",
+      "Circle",
+      "Conversion",
+      "Tables",
+      "Linear models",
+      "Quadratic models",
+      "System of equation model",
+      "Triangle",
+      "Angles",
+      "Statistics",
+      "Function",
+      "Functions",
+      "Min max value",
+      "Exponential and linear functions",
+      "Percentage",
+      "Volume",
+      "3d geometry",
+      "Forms of functions",
+      "Vocabulary",
+      "Main point",
+      "Information and ideas",
+      "Craft and structure",
+      "Detail",
+      "Information and idea",
+      "Textual evidence",
+      "Inferences",
+      "Quantitative evidence",
+      "Inference",
+      "Grammar",
+      "Standard english conventions",
+      "Expression of ideas",
+      "Transitions",
+      "Rhetorical synthesis",
+      "Author technique",
+      "Analogy",
+      "Structure",
+      "Algebra",
+      "Data analysis",
+      "Advanced math",
+      "Geometry and trigonometry"
+    ]
+  },
+  "pipeline":[
+    "textcat_multilabel"
+  ],
+  "components":[
+    "textcat_multilabel"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "cats_score":0.9812220408,
+    "cats_score_desc":"macro AUC",
+    "cats_micro_p":0.8902439024,
+    "cats_micro_r":0.8111111111,
+    "cats_micro_f":0.8488372093,
+    "cats_macro_p":0.6376701914,
+    "cats_macro_r":0.6548825874,
+    "cats_macro_f":0.6197888777,
+    "cats_macro_auc":0.9812220408,
+    "cats_f_per_type":{
+      "Heart of algebra":{
+        "p":0.8571428571,
+        "r":0.8571428571,
+        "f":0.8571428571
+      },
+      "Linear equation":{
+        "p":1.0,
+        "r":0.6,
+        "f":0.75
+      },
+      "Word problem":{
+        "p":0.7692307692,
+        "r":0.5555555556,
+        "f":0.6451612903
+      },
+      "Quadratic equation":{
+        "p":1.0,
+        "r":0.6,
+        "f":0.75
+      },
+      "Probability":{
+        "p":0.5,
+        "r":1.0,
+        "f":0.6666666667
+      },
+      "Geometry":{
+        "p":1.0,
+        "r":0.2857142857,
+        "f":0.4444444444
+      },
+      "System of equation":{
+        "p":1.0,
+        "r":0.75,
+        "f":0.8571428571
+      },
+      "Graph":{
+        "p":1.0,
+        "r":0.3333333333,
+        "f":0.5
+      },
+      "Linear model":{
+        "p":0.5,
+        "r":0.6666666667,
+        "f":0.5714285714
+      },
+      "Quadratic equation graph":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Words in context":{
+        "p":0.9487179487,
+        "r":0.9024390244,
+        "f":0.925
+      },
+      "Table":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Circle equation":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Radian":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Circle":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Conversion":{
+        "p":0.6666666667,
+        "r":1.0,
+        "f":0.8
+      },
+      "Tables":{
+        "p":0.5,
+        "r":1.0,
+        "f":0.6666666667
+      },
+      "Linear models":{
+        "p":1.0,
+        "r":0.5,
+        "f":0.6666666667
+      },
+      "Quadratic models":{
+        "p":0.5,
+        "r":1.0,
+        "f":0.6666666667
+      },
+      "System of equation model":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Triangle":{
+        "p":0.5,
+        "r":1.0,
+        "f":0.6666666667
+      },
+      "Angles":{
+        "p":0.5,
+        "r":1.0,
+        "f":0.6666666667
+      },
+      "Statistics":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Function":{
+        "p":0.75,
+        "r":0.8181818182,
+        "f":0.7826086957
+      },
+      "Functions":{
+        "p":0.5,
+        "r":1.0,
+        "f":0.6666666667
+      },
+      "Min max value":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Exponential and linear functions":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Percentage":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Volume":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "3d geometry":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Forms of functions":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Vocabulary":{
+        "p":0.5,
+        "r":0.6666666667,
+        "f":0.5714285714
+      },
+      "Main point":{
+        "p":0.9166666667,
+        "r":0.9166666667,
+        "f":0.9166666667
+      },
+      "Information and ideas":{
+        "p":0.5,
+        "r":1.0,
+        "f":0.6666666667
+      },
+      "Craft and structure":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Detail":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Information and idea":{
+        "p":0.5,
+        "r":1.0,
+        "f":0.6666666667
+      },
+      "Textual evidence":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Inferences":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Quantitative evidence":{
+        "p":0.9166666667,
+        "r":1.0,
+        "f":0.9565217391
+      },
+      "Inference":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Grammar":{
+        "p":0.9714285714,
+        "r":1.0,
+        "f":0.9855072464
+      },
+      "Standard english conventions":{
+        "p":1.0,
+        "r":0.8333333333,
+        "f":0.9090909091
+      },
+      "Expression of ideas":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Transitions":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Rhetorical synthesis":{
+        "p":1.0,
+        "r":0.9230769231,
+        "f":0.96
+      },
+      "Author technique":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Analogy":{
+        "p":1.0,
+        "r":0.5,
+        "f":0.6666666667
+      },
+      "Structure":{
+        "p":0.0,
+        "r":0.0,
+        "f":0.0
+      },
+      "Algebra":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Data analysis":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Advanced math":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      },
+      "Geometry and trigonometry":{
+        "p":1.0,
+        "r":1.0,
+        "f":1.0
+      }
+    },
+    "textcat_multilabel_loss":0.662079383
+  }
+}
